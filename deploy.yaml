@@ -1,0 +1,13 @@
+
+# Ansible Playbook : deploy.yaml
+
+---
+name: "Apache installation avec docker"
+hosts: prod
+tasks:
+  -name: "CREATE DOCKER CONTAINER FOR APACHE"
+  community.docker.docker_container:
+    name: webapp
+    image: httpd
+    ports:
+      "80:80"
