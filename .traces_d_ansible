@@ -610,3 +610,28 @@ Origin: /home/deploy/webapp_01/deploy.yaml:28:7
 2026-07-09 22:49:47,926 p=11946 u=deploy n=ansible INFO| ok: [srvr-apache-1]
 2026-07-09 22:49:47,928 p=11946 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
 2026-07-09 22:49:47,928 p=11946 u=deploy n=ansible INFO| srvr-apache-1              : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-07-09 23:00:32,157 p=12225 u=deploy n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-07-09 23:00:32,157 p=12225 u=deploy n=ansible INFO| [DEPRECATION WARNING]: apt_key has been deprecated. Use deb822_repository instead. This feature will be removed from ansible-core version 2.25.
+Origin: /home/deploy/webapp_01/deploy.yaml:22:7
+
+20
+21     - name: AJOUT CLE GPG DE DOCKER
+22       apt_key:
+         ^ column 7
+
+
+2026-07-09 23:00:32,158 p=12225 u=deploy n=ansible INFO| [DEPRECATION WARNING]: apt_repository has been deprecated. Use deb822_repository instead. This feature will be removed from ansible-core version 2.25.
+Origin: /home/deploy/webapp_01/deploy.yaml:28:7
+
+26
+27     - name: AJOUT DEPOT APT DE DOCKER
+28       apt_repository:
+         ^ column 7
+
+
+2026-07-09 23:00:32,195 p=12225 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] *****************************************************************************
+2026-07-09 23:00:32,208 p=12225 u=deploy n=ansible INFO| TASK [Gathering Facts] *********************************************************************************************
+2026-07-09 23:01:00,448 p=12225 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 23:01:00,450 p=12225 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
+2026-07-09 23:01:00,451 p=12225 u=deploy n=ansible INFO| srvr-apache-1              : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
