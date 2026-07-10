@@ -548,3 +548,65 @@ Origin: /home/deploy/webapp_01/deploy.yaml:28:7
 2026-07-09 22:29:12,050 p=8461 u=deploy n=ansible INFO| ok: [srvr-apache-1]
 2026-07-09 22:29:12,053 p=8461 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
 2026-07-09 22:29:12,053 p=8461 u=deploy n=ansible INFO| srvr-apache-1              : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-07-09 22:48:13,437 p=11859 u=deploy n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-07-09 22:48:13,438 p=11859 u=deploy n=ansible INFO| [DEPRECATION WARNING]: apt_key has been deprecated. Use deb822_repository instead. This feature will be removed from ansible-core version 2.25.
+Origin: /home/deploy/webapp_01/deploy.yaml:22:7
+
+20
+21     - name: AJOUT CLE GPG DE DOCKER
+22       apt_key:
+         ^ column 7
+
+
+2026-07-09 22:48:13,439 p=11859 u=deploy n=ansible INFO| [DEPRECATION WARNING]: apt_repository has been deprecated. Use deb822_repository instead. This feature will be removed from ansible-core version 2.25.
+Origin: /home/deploy/webapp_01/deploy.yaml:28:7
+
+26
+27     - name: AJOUT DEPOT APT DE DOCKER
+28       apt_repository:
+         ^ column 7
+
+
+2026-07-09 22:48:13,472 p=11859 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] *****************************************************************************
+2026-07-09 22:48:13,484 p=11859 u=deploy n=ansible INFO| TASK [Gathering Facts] *********************************************************************************************
+2026-07-09 22:48:46,743 p=11859 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:48:46,749 p=11859 u=deploy n=ansible INFO| TASK [INSTALL DEPENDANCES DOCKER] **********************************************************************************
+2026-07-09 22:49:03,887 p=11859 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:49:03,898 p=11859 u=deploy n=ansible INFO| TASK [AJOUT CLE GPG DE DOCKER] *************************************************************************************
+2026-07-09 22:49:05,267 p=11859 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:49:05,276 p=11859 u=deploy n=ansible INFO| TASK [AJOUT DEPOT APT DE DOCKER] ***********************************************************************************
+2026-07-09 22:49:06,299 p=11859 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:49:06,309 p=11859 u=deploy n=ansible INFO| TASK [INSTALL DOCKER] **********************************************************************************************
+2026-07-09 22:49:09,607 p=11859 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:49:09,617 p=11859 u=deploy n=ansible INFO| TASK [INSTALL DOCKER] **********************************************************************************************
+2026-07-09 22:49:12,881 p=11859 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:49:12,891 p=11859 u=deploy n=ansible INFO| TASK [DEMARRE DOCKER] **********************************************************************************************
+2026-07-09 22:49:14,105 p=11859 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:49:14,109 p=11859 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
+2026-07-09 22:49:14,109 p=11859 u=deploy n=ansible INFO| srvr-apache-1              : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-07-09 22:49:45,877 p=11946 u=deploy n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-07-09 22:49:45,878 p=11946 u=deploy n=ansible INFO| [DEPRECATION WARNING]: apt_key has been deprecated. Use deb822_repository instead. This feature will be removed from ansible-core version 2.25.
+Origin: /home/deploy/webapp_01/deploy.yaml:22:7
+
+20
+21     - name: AJOUT CLE GPG DE DOCKER
+22       apt_key:
+         ^ column 7
+
+
+2026-07-09 22:49:45,879 p=11946 u=deploy n=ansible INFO| [DEPRECATION WARNING]: apt_repository has been deprecated. Use deb822_repository instead. This feature will be removed from ansible-core version 2.25.
+Origin: /home/deploy/webapp_01/deploy.yaml:28:7
+
+26
+27     - name: AJOUT DEPOT APT DE DOCKER
+28       apt_repository:
+         ^ column 7
+
+
+2026-07-09 22:49:45,912 p=11946 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] *****************************************************************************
+2026-07-09 22:49:45,924 p=11946 u=deploy n=ansible INFO| TASK [Gathering Facts] *********************************************************************************************
+2026-07-09 22:49:47,926 p=11946 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 22:49:47,928 p=11946 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
+2026-07-09 22:49:47,928 p=11946 u=deploy n=ansible INFO| srvr-apache-1              : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

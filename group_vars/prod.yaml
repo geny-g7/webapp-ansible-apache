@@ -2,4 +2,4 @@
 
 ---
 ansible_user: deploy
-ansible_sudo_pass: "egeorges*1"
+#ansible_sudo_pass: "egeorges*1"
