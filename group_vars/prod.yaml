@@ -1,0 +1,5 @@
+# Fichier des variables prod.yaml
+
+---
+ansible_user: deploy
+ansible_sudo_pass: "egeorges*1"
