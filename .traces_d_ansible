@@ -1,0 +1,260 @@
+2026-07-09 19:14:57,830 p=6451 u=deploy n=ansible WARNING| [WARNING]: Collection at '/usr/lib/python3/dist-packages/ansible/_internal/ansible_collections/ansible/_protomatter' does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+
+2026-07-09 19:14:57,839 p=6451 u=deploy n=ansible INFO| {"/usr/lib/python3/dist-packages/ansible/_internal/ansible_collections": {"ansible._protomatter": {"version": "*"}}, "/usr/lib/python3/dist-packages/ansible_collections": {"amazon.aws": {"version": "11.3.0"}, "ansible.mysql": {"version": "5.0.1"}, "ansible.netcommon": {"version": "8.5.3"}, "ansible.posix": {"version": "2.2.0"}, "ansible.utils": {"version": "6.0.3"}, "ansible.windows": {"version": "3.6.1"}, "arista.eos": {"version": "12.1.2"}, "azure.azcollection": {"version": "3.19.0"}, "check_point.mgmt": {"version": "6.9.0"}, "chocolatey.chocolatey": {"version": "1.6.0"}, "cisco.aci": {"version": "2.13.0"}, "cisco.intersight": {"version": "2.19.0"}, "cisco.ios": {"version": "11.4.2"}, "cisco.iosxr": {"version": "12.3.2"}, "cisco.meraki": {"version": "2.24.0"}, "cisco.mso": {"version": "2.13.0"}, "cisco.nxos": {"version": "11.2.0"}, "cisco.ucs": {"version": "1.16.0"}, "cloudscale_ch.cloud": {"version": "2.5.3"}, "community.aws": {"version": "11.0.0"}, "community.ciscosmb": {"version": "1.0.12"}, "community.clickhouse": {"version": "2.2.0"}, "community.crypto": {"version": "3.2.2"}, "community.dns": {"version": "4.0.1"}, "community.docker": {"version": "5.2.1"}, "community.general": {"version": "13.1.0"}, "community.grafana": {"version": "2.3.0"}, "community.hashi_vault": {"version": "7.1.0"}, "community.hrobot": {"version": "2.7.2"}, "community.library_inventory_filtering_v1": {"version": "1.1.5"}, "community.libvirt": {"version": "2.2.0"}, "community.mongodb": {"version": "1.7.12"}, "community.mysql": {"version": "5.0.2"}, "community.okd": {"version": "5.0.0"}, "community.postgresql": {"version": "4.2.0"}, "community.proxmox": {"version": "2.0.0"}, "community.proxysql": {"version": "1.8.0"}, "community.rabbitmq": {"version": "1.6.0"}, "community.routeros": {"version": "3.21.0"}, "community.sap_libs": {"version": "1.7.0"}, "community.sops": {"version": "2.4.0"}, "community.vmware": {"version": "6.2.0"}, "community.windows": {"version": "3.2.0"}, "community.zabbix": {"version": "4.2.0"}, "containers.podman": {"version": "1.20.2"}, "cyberark.conjur": {"version": "1.3.12"}, "cyberark.pas": {"version": "1.0.39"}, "dellemc.enterprise_sonic": {"version": "4.1.0"}, "dellemc.openmanage": {"version": "10.0.2"}, "dellemc.powerflex": {"version": "3.0.0"}, "dellemc.unity": {"version": "2.1.0"}, "f5networks.f5_modules": {"version": "1.42.0"}, "fortinet.fortimanager": {"version": "2.14.0"}, "fortinet.fortios": {"version": "2.5.1"}, "google.cloud": {"version": "1.13.0"}, "grafana.grafana": {"version": "6.1.0"}, "graphiant.naas": {"version": "26.5.0"}, "hetzner.hcloud": {"version": "6.10.0"}, "hitachivantara.vspone_block": {"version": "4.8.2"}, "hitachivantara.vspone_object": {"version": "1.2.0"}, "ibm.storage_virtualize": {"version": "3.3.0"}, "ieisystem.inmanage": {"version": "4.0.0"}, "infinidat.infinibox": {"version": "1.8.1"}, "infoblox.nios_modules": {"version": "1.9.0"}, "inspur.ispim": {"version": "2.2.4"}, "kaytus.ksmanage": {"version": "4.0.0"}, "kubernetes.core": {"version": "6.4.0"}, "kubevirt.core": {"version": "2.3.0"}, "lowlydba.sqlserver": {"version": "2.8.1"}, "microsoft.ad": {"version": "1.11.0"}, "microsoft.iis": {"version": "1.2.0"}, "netapp.cloudmanager": {"version": "21.24.0"}, "netapp.ontap": {"version": "23.5.0"}, "netapp.storagegrid": {"version": "21.16.0"}, "netapp_eseries.santricity": {"version": "2.0.1"}, "netbox.netbox": {"version": "3.23.0"}, "ngine_io.cloudstack": {"version": "3.0.0"}, "openstack.cloud": {"version": "2.6.0"}, "ovirt.ovirt": {"version": "3.2.2"}, "pcg.alpaca_operator": {"version": "2.2.0"}, "purestorage.flasharray": {"version": "1.42.0"}, "purestorage.flashblade": {"version": "1.25.1"}, "ravendb.ravendb": {"version": "1.0.4"}, "splunk.es": {"version": "6.0.0"}, "telekom_mms.icinga_director": {"version": "2.5.1"}, "theforeman.foreman": {"version": "5.11.0"}, "vmware.vmware": {"version": "2.9.0"}, "vmware.vmware_rest": {"version": "4.11.0"}, "vultr.cloud": {"version": "1.14.0"}, "vyos.vyos": {"version": "6.0.0"}, "wti.remote": {"version": "1.0.11"}}}
+2026-07-09 19:14:58,271 p=6442 u=deploy n=ansiblelint WARNING| Listing 1 violation(s) that are fatal
+2026-07-09 19:16:26,214 p=6480 u=deploy n=ansible WARNING| [WARNING]: Collection at '/usr/lib/python3/dist-packages/ansible/_internal/ansible_collections/ansible/_protomatter' does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+
+2026-07-09 19:16:26,220 p=6480 u=deploy n=ansible INFO| {"/usr/lib/python3/dist-packages/ansible/_internal/ansible_collections": {"ansible._protomatter": {"version": "*"}}, "/usr/lib/python3/dist-packages/ansible_collections": {"amazon.aws": {"version": "11.3.0"}, "ansible.mysql": {"version": "5.0.1"}, "ansible.netcommon": {"version": "8.5.3"}, "ansible.posix": {"version": "2.2.0"}, "ansible.utils": {"version": "6.0.3"}, "ansible.windows": {"version": "3.6.1"}, "arista.eos": {"version": "12.1.2"}, "azure.azcollection": {"version": "3.19.0"}, "check_point.mgmt": {"version": "6.9.0"}, "chocolatey.chocolatey": {"version": "1.6.0"}, "cisco.aci": {"version": "2.13.0"}, "cisco.intersight": {"version": "2.19.0"}, "cisco.ios": {"version": "11.4.2"}, "cisco.iosxr": {"version": "12.3.2"}, "cisco.meraki": {"version": "2.24.0"}, "cisco.mso": {"version": "2.13.0"}, "cisco.nxos": {"version": "11.2.0"}, "cisco.ucs": {"version": "1.16.0"}, "cloudscale_ch.cloud": {"version": "2.5.3"}, "community.aws": {"version": "11.0.0"}, "community.ciscosmb": {"version": "1.0.12"}, "community.clickhouse": {"version": "2.2.0"}, "community.crypto": {"version": "3.2.2"}, "community.dns": {"version": "4.0.1"}, "community.docker": {"version": "5.2.1"}, "community.general": {"version": "13.1.0"}, "community.grafana": {"version": "2.3.0"}, "community.hashi_vault": {"version": "7.1.0"}, "community.hrobot": {"version": "2.7.2"}, "community.library_inventory_filtering_v1": {"version": "1.1.5"}, "community.libvirt": {"version": "2.2.0"}, "community.mongodb": {"version": "1.7.12"}, "community.mysql": {"version": "5.0.2"}, "community.okd": {"version": "5.0.0"}, "community.postgresql": {"version": "4.2.0"}, "community.proxmox": {"version": "2.0.0"}, "community.proxysql": {"version": "1.8.0"}, "community.rabbitmq": {"version": "1.6.0"}, "community.routeros": {"version": "3.21.0"}, "community.sap_libs": {"version": "1.7.0"}, "community.sops": {"version": "2.4.0"}, "community.vmware": {"version": "6.2.0"}, "community.windows": {"version": "3.2.0"}, "community.zabbix": {"version": "4.2.0"}, "containers.podman": {"version": "1.20.2"}, "cyberark.conjur": {"version": "1.3.12"}, "cyberark.pas": {"version": "1.0.39"}, "dellemc.enterprise_sonic": {"version": "4.1.0"}, "dellemc.openmanage": {"version": "10.0.2"}, "dellemc.powerflex": {"version": "3.0.0"}, "dellemc.unity": {"version": "2.1.0"}, "f5networks.f5_modules": {"version": "1.42.0"}, "fortinet.fortimanager": {"version": "2.14.0"}, "fortinet.fortios": {"version": "2.5.1"}, "google.cloud": {"version": "1.13.0"}, "grafana.grafana": {"version": "6.1.0"}, "graphiant.naas": {"version": "26.5.0"}, "hetzner.hcloud": {"version": "6.10.0"}, "hitachivantara.vspone_block": {"version": "4.8.2"}, "hitachivantara.vspone_object": {"version": "1.2.0"}, "ibm.storage_virtualize": {"version": "3.3.0"}, "ieisystem.inmanage": {"version": "4.0.0"}, "infinidat.infinibox": {"version": "1.8.1"}, "infoblox.nios_modules": {"version": "1.9.0"}, "inspur.ispim": {"version": "2.2.4"}, "kaytus.ksmanage": {"version": "4.0.0"}, "kubernetes.core": {"version": "6.4.0"}, "kubevirt.core": {"version": "2.3.0"}, "lowlydba.sqlserver": {"version": "2.8.1"}, "microsoft.ad": {"version": "1.11.0"}, "microsoft.iis": {"version": "1.2.0"}, "netapp.cloudmanager": {"version": "21.24.0"}, "netapp.ontap": {"version": "23.5.0"}, "netapp.storagegrid": {"version": "21.16.0"}, "netapp_eseries.santricity": {"version": "2.0.1"}, "netbox.netbox": {"version": "3.23.0"}, "ngine_io.cloudstack": {"version": "3.0.0"}, "openstack.cloud": {"version": "2.6.0"}, "ovirt.ovirt": {"version": "3.2.2"}, "pcg.alpaca_operator": {"version": "2.2.0"}, "purestorage.flasharray": {"version": "1.42.0"}, "purestorage.flashblade": {"version": "1.25.1"}, "ravendb.ravendb": {"version": "1.0.4"}, "splunk.es": {"version": "6.0.0"}, "telekom_mms.icinga_director": {"version": "2.5.1"}, "theforeman.foreman": {"version": "5.11.0"}, "vmware.vmware": {"version": "2.9.0"}, "vmware.vmware_rest": {"version": "4.11.0"}, "vultr.cloud": {"version": "1.14.0"}, "vyos.vyos": {"version": "6.0.0"}, "wti.remote": {"version": "1.0.11"}}}
+2026-07-09 19:16:26,649 p=6471 u=deploy n=ansiblelint WARNING| Listing 1 violation(s) that are fatal
+2026-07-09 19:17:09,711 p=6503 u=deploy n=ansible WARNING| [WARNING]: Collection at '/usr/lib/python3/dist-packages/ansible/_internal/ansible_collections/ansible/_protomatter' does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect version.
+
+2026-07-09 19:17:09,720 p=6503 u=deploy n=ansible INFO| {"/usr/lib/python3/dist-packages/ansible/_internal/ansible_collections": {"ansible._protomatter": {"version": "*"}}, "/usr/lib/python3/dist-packages/ansible_collections": {"amazon.aws": {"version": "11.3.0"}, "ansible.mysql": {"version": "5.0.1"}, "ansible.netcommon": {"version": "8.5.3"}, "ansible.posix": {"version": "2.2.0"}, "ansible.utils": {"version": "6.0.3"}, "ansible.windows": {"version": "3.6.1"}, "arista.eos": {"version": "12.1.2"}, "azure.azcollection": {"version": "3.19.0"}, "check_point.mgmt": {"version": "6.9.0"}, "chocolatey.chocolatey": {"version": "1.6.0"}, "cisco.aci": {"version": "2.13.0"}, "cisco.intersight": {"version": "2.19.0"}, "cisco.ios": {"version": "11.4.2"}, "cisco.iosxr": {"version": "12.3.2"}, "cisco.meraki": {"version": "2.24.0"}, "cisco.mso": {"version": "2.13.0"}, "cisco.nxos": {"version": "11.2.0"}, "cisco.ucs": {"version": "1.16.0"}, "cloudscale_ch.cloud": {"version": "2.5.3"}, "community.aws": {"version": "11.0.0"}, "community.ciscosmb": {"version": "1.0.12"}, "community.clickhouse": {"version": "2.2.0"}, "community.crypto": {"version": "3.2.2"}, "community.dns": {"version": "4.0.1"}, "community.docker": {"version": "5.2.1"}, "community.general": {"version": "13.1.0"}, "community.grafana": {"version": "2.3.0"}, "community.hashi_vault": {"version": "7.1.0"}, "community.hrobot": {"version": "2.7.2"}, "community.library_inventory_filtering_v1": {"version": "1.1.5"}, "community.libvirt": {"version": "2.2.0"}, "community.mongodb": {"version": "1.7.12"}, "community.mysql": {"version": "5.0.2"}, "community.okd": {"version": "5.0.0"}, "community.postgresql": {"version": "4.2.0"}, "community.proxmox": {"version": "2.0.0"}, "community.proxysql": {"version": "1.8.0"}, "community.rabbitmq": {"version": "1.6.0"}, "community.routeros": {"version": "3.21.0"}, "community.sap_libs": {"version": "1.7.0"}, "community.sops": {"version": "2.4.0"}, "community.vmware": {"version": "6.2.0"}, "community.windows": {"version": "3.2.0"}, "community.zabbix": {"version": "4.2.0"}, "containers.podman": {"version": "1.20.2"}, "cyberark.conjur": {"version": "1.3.12"}, "cyberark.pas": {"version": "1.0.39"}, "dellemc.enterprise_sonic": {"version": "4.1.0"}, "dellemc.openmanage": {"version": "10.0.2"}, "dellemc.powerflex": {"version": "3.0.0"}, "dellemc.unity": {"version": "2.1.0"}, "f5networks.f5_modules": {"version": "1.42.0"}, "fortinet.fortimanager": {"version": "2.14.0"}, "fortinet.fortios": {"version": "2.5.1"}, "google.cloud": {"version": "1.13.0"}, "grafana.grafana": {"version": "6.1.0"}, "graphiant.naas": {"version": "26.5.0"}, "hetzner.hcloud": {"version": "6.10.0"}, "hitachivantara.vspone_block": {"version": "4.8.2"}, "hitachivantara.vspone_object": {"version": "1.2.0"}, "ibm.storage_virtualize": {"version": "3.3.0"}, "ieisystem.inmanage": {"version": "4.0.0"}, "infinidat.infinibox": {"version": "1.8.1"}, "infoblox.nios_modules": {"version": "1.9.0"}, "inspur.ispim": {"version": "2.2.4"}, "kaytus.ksmanage": {"version": "4.0.0"}, "kubernetes.core": {"version": "6.4.0"}, "kubevirt.core": {"version": "2.3.0"}, "lowlydba.sqlserver": {"version": "2.8.1"}, "microsoft.ad": {"version": "1.11.0"}, "microsoft.iis": {"version": "1.2.0"}, "netapp.cloudmanager": {"version": "21.24.0"}, "netapp.ontap": {"version": "23.5.0"}, "netapp.storagegrid": {"version": "21.16.0"}, "netapp_eseries.santricity": {"version": "2.0.1"}, "netbox.netbox": {"version": "3.23.0"}, "ngine_io.cloudstack": {"version": "3.0.0"}, "openstack.cloud": {"version": "2.6.0"}, "ovirt.ovirt": {"version": "3.2.2"}, "pcg.alpaca_operator": {"version": "2.2.0"}, "purestorage.flasharray": {"version": "1.42.0"}, "purestorage.flashblade": {"version": "1.25.1"}, "ravendb.ravendb": {"version": "1.0.4"}, "splunk.es": {"version": "6.0.0"}, "telekom_mms.icinga_director": {"version": "2.5.1"}, "theforeman.foreman": {"version": "5.11.0"}, "vmware.vmware": {"version": "2.9.0"}, "vmware.vmware_rest": {"version": "4.11.0"}, "vultr.cloud": {"version": "1.14.0"}, "vyos.vyos": {"version": "6.0.0"}, "wti.remote": {"version": "1.0.11"}}}
+2026-07-09 19:19:05,647 p=6518 u=deploy n=ansible ERROR| [ERROR]: A playbook must be a list of plays, got a <class 'ansible.module_utils._internal._datatag._AnsibleTaggedDict'> instead: /home/deploy/webapp_01/deploy.yaml
+Origin: /home/deploy/webapp_01/deploy.yaml:4:1
+
+2
+3 ---
+4 name: "Apache installation avec docker"
+  ^ column 1
+
+
+2026-07-09 19:21:25,478 p=6539 u=deploy n=ansible ERROR| [ERROR]: YAML parsing failed: Colons in unquoted values must be followed by a non-space character.
+Origin: /home/deploy/webapp_01/deploy.yaml:8:36
+
+6 tasks:
+7   - name: "CREATE DOCKER CONTAINER FOR APACHE"
+8   community.docker.docker_container:
+                                     ^ column 36
+
+
+For example:
+
+    raw: echo 'name: ansible'
+
+Should be:
+
+    raw: "echo 'name: ansible'"
+
+
+2026-07-09 19:23:17,252 p=6553 u=deploy n=ansible WARNING| [WARNING]: Found duplicate mapping key 'name'.
+Origin: /home/deploy/webapp_01/deploy.yaml:9:5
+
+7   - name: CREATE DOCKER CONTAINER FOR APACHE
+8     community.docker.docker_container:
+9     name: webapp
+      ^ column 5
+
+Using last defined value only.
+
+
+2026-07-09 19:23:17,254 p=6553 u=deploy n=ansible ERROR| [ERROR]: A playbook must be a list of plays, got a <class 'ansible.module_utils._internal._datatag._AnsibleTaggedDict'> instead: /home/deploy/webapp_01/deploy.yaml
+Origin: /home/deploy/webapp_01/deploy.yaml:4:1
+
+2
+3 ---
+4 name: "Apache installation avec docker"
+  ^ column 1
+
+
+2026-07-09 19:25:04,121 p=6571 u=deploy n=ansible WARNING| [WARNING]: Found duplicate mapping key 'name'.
+Origin: /home/deploy/webapp_01/deploy.yaml:9:7
+
+7     - name: CREATE DOCKER CONTAINER FOR APACHE
+8       community.docker.docker_container:
+9       name: webapp
+        ^ column 7
+
+Using last defined value only.
+
+
+2026-07-09 19:25:04,126 p=6571 u=deploy n=ansible ERROR| [ERROR]: conflicting action statements: community.docker.docker_container, image
+Origin: /home/deploy/webapp_01/deploy.yaml:7:7
+
+5   hosts: prod
+6   tasks:
+7     - name: CREATE DOCKER CONTAINER FOR APACHE
+        ^ column 7
+
+
+2026-07-09 19:27:11,357 p=6599 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] ***********************************************************************************************************
+2026-07-09 19:27:11,376 p=6599 u=deploy n=ansible INFO| TASK [Gathering Facts] ***************************************************************************************************************************
+2026-07-09 19:27:11,438 p=6599 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution
+
+2026-07-09 19:27:11,441 p=6599 u=deploy n=ansible INFO| fatal: [srv-apache-1]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution", "unreachable": true}
+2026-07-09 19:27:11,442 p=6599 u=deploy n=ansible INFO| PLAY RECAP ***************************************************************************************************************************************
+2026-07-09 19:27:11,442 p=6599 u=deploy n=ansible INFO| srv-apache-1               : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-07-09 19:28:33,924 p=6611 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] ***********************************************************************************************************
+2026-07-09 19:28:33,936 p=6611 u=deploy n=ansible INFO| TASK [Gathering Facts] ***************************************************************************************************************************
+2026-07-09 19:28:33,992 p=6611 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution
+
+2026-07-09 19:28:33,993 p=6611 u=deploy n=ansible INFO| fatal: [srv-apache-1]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution", "unreachable": true}
+2026-07-09 19:28:33,994 p=6611 u=deploy n=ansible INFO| PLAY RECAP ***************************************************************************************************************************************
+2026-07-09 19:28:33,995 p=6611 u=deploy n=ansible INFO| srv-apache-1               : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-07-09 19:30:51,538 p=6637 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] ***********************************************************************************************************
+2026-07-09 19:30:51,550 p=6637 u=deploy n=ansible INFO| TASK [Gathering Facts] ***************************************************************************************************************************
+2026-07-09 19:30:51,608 p=6637 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution
+
+2026-07-09 19:30:51,610 p=6637 u=deploy n=ansible INFO| fatal: [srv-apache-1]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution", "unreachable": true}
+2026-07-09 19:30:51,611 p=6637 u=deploy n=ansible INFO| PLAY RECAP ***************************************************************************************************************************************
+2026-07-09 19:30:51,611 p=6637 u=deploy n=ansible INFO| srv-apache-1               : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-07-09 19:32:16,374 p=6648 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-07-09 19:32:16,377 p=6648 u=deploy n=ansible INFO| srv-apache-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srv-apache-1: Temporary failure in name resolution",
+    "unreachable": true
+}
+2026-07-09 19:32:16,885 p=6648 u=deploy n=ansible INFO| control | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 19:34:01,591 p=6686 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-07-09 19:34:01,592 p=6686 u=deploy n=ansible INFO| srvr-apache-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution",
+    "unreachable": true
+}
+2026-07-09 19:34:02,101 p=6686 u=deploy n=ansible INFO| control | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 19:45:35,608 p=4418 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-07-09 19:45:35,609 p=4418 u=deploy n=ansible INFO| srvr-apache-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution",
+    "unreachable": true
+}
+2026-07-09 19:45:36,172 p=4418 u=deploy n=ansible INFO| control | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 20:04:21,107 p=4830 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-07-09 20:04:21,114 p=4830 u=deploy n=ansible INFO| srvr-apache-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution",
+    "unreachable": true
+}
+2026-07-09 20:04:21,630 p=4830 u=deploy n=ansible INFO| control | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 20:09:21,711 p=4897 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-07-09 20:09:21,713 p=4897 u=deploy n=ansible INFO| srvr-apache-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution",
+    "unreachable": true
+}
+2026-07-09 20:09:22,235 p=4897 u=deploy n=ansible INFO| control | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 20:40:37,732 p=4642 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-07-09 20:40:37,735 p=4642 u=deploy n=ansible INFO| srvr-apache-1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution",
+    "unreachable": true
+}
+2026-07-09 20:40:38,245 p=4642 u=deploy n=ansible INFO| control | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 20:47:51,781 p=4757 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] *****************************************************************************
+2026-07-09 20:47:51,794 p=4757 u=deploy n=ansible INFO| TASK [Gathering Facts] *********************************************************************************************
+2026-07-09 20:47:51,847 p=4757 u=deploy n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution
+
+2026-07-09 20:47:51,848 p=4757 u=deploy n=ansible INFO| fatal: [srvr-apache-1]: UNREACHABLE! => {"changed": false, "msg": "Task failed: Failed to connect to the host via ssh: ssh: Could not resolve hostname srvr-apache-1: Temporary failure in name resolution", "unreachable": true}
+2026-07-09 20:47:51,849 p=4757 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
+2026-07-09 20:47:51,849 p=4757 u=deploy n=ansible INFO| srvr-apache-1              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-07-09 20:55:25,448 p=4926 u=deploy n=ansible INFO| control | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 20:55:26,564 p=4926 u=deploy n=ansible INFO| srvr-apache-1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.12"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-07-09 20:56:10,713 p=4972 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] *****************************************************************************
+2026-07-09 20:56:10,725 p=4972 u=deploy n=ansible INFO| TASK [Gathering Facts] *********************************************************************************************
+2026-07-09 20:56:22,505 p=4972 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 20:56:22,515 p=4972 u=deploy n=ansible INFO| TASK [CREATE DOCKER CONTAINER FOR APACHE] **************************************************************************
+2026-07-09 20:56:23,784 p=4972 u=deploy n=ansible ERROR| [ERROR]: Task failed: Module failed: Error connecting: Error while fetching server API version: ('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))
+Origin: /home/deploy/webapp_01/deploy.yaml:7:7
+
+5   hosts: prod
+6   tasks:
+7     - name: CREATE DOCKER CONTAINER FOR APACHE
+        ^ column 7
+
+
+2026-07-09 20:56:23,785 p=4972 u=deploy n=ansible INFO| fatal: [srvr-apache-1]: FAILED! => {"changed": false, "msg": "Error connecting: Error while fetching server API version: ('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))"}
+2026-07-09 20:56:23,788 p=4972 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
+2026-07-09 20:56:23,788 p=4972 u=deploy n=ansible INFO| srvr-apache-1              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-07-09 21:10:07,080 p=5993 u=deploy n=ansible INFO| PLAY [Apache installation avec docker] *****************************************************************************
+2026-07-09 21:10:07,092 p=5993 u=deploy n=ansible INFO| TASK [Gathering Facts] *********************************************************************************************
+2026-07-09 21:10:19,957 p=5993 u=deploy n=ansible INFO| ok: [srvr-apache-1]
+2026-07-09 21:10:19,966 p=5993 u=deploy n=ansible INFO| TASK [CREATE DOCKER CONTAINER FOR APACHE] **************************************************************************
+2026-07-09 21:10:21,203 p=5993 u=deploy n=ansible ERROR| [ERROR]: Task failed: Module failed: Error connecting: Error while fetching server API version: ('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))
+Origin: /home/deploy/webapp_01/deploy.yaml:7:7
+
+5   hosts: prod
+6   tasks:
+7     - name: CREATE DOCKER CONTAINER FOR APACHE
+        ^ column 7
+
+
+2026-07-09 21:10:21,204 p=5993 u=deploy n=ansible INFO| fatal: [srvr-apache-1]: FAILED! => {"changed": false, "msg": "Error connecting: Error while fetching server API version: ('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))"}
+2026-07-09 21:10:21,209 p=5993 u=deploy n=ansible INFO| PLAY RECAP *********************************************************************************************************
+2026-07-09 21:10:21,209 p=5993 u=deploy n=ansible INFO| srvr-apache-1              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
