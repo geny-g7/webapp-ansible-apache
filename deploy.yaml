@@ -3,7 +3,10 @@
 ---
 - name: "Apache installation avec docker"
   hosts: prod
-  pre-taks:
+  become: true
+  vars:
+    ansible_sudo_pass: "egeorges*1"
+  pre_tasks:
     - name: INSTALL DEPENDANCES DOCKER
       apt:
         name:
@@ -48,9 +51,11 @@
         name: docker
       tags: docker
 
+ # tasks:
     - name: CREATE DOCKER CONTAINER FOR APACHE
       community.docker.docker_container:
         name: webapp
         image: httpd
         ports:
           - "80:80"
+        tags: webapp
